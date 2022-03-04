@@ -46,7 +46,6 @@ const ForecastResults = (props) => {
                 <ForecastCard
                   key={key}
                   weekday={(dayname = new Date(value.dt * 1000).getDay())}
-                  //icon={value.weather[0].icon}
                   icon={IconConditions[value.weather[0].icon].icon}
                   tempMax={value.temp.max}
                   tempMin={value.temp.min}

@@ -12,10 +12,6 @@ const Tab = createMaterialTopTabNavigator();
 export default App = () => {
   const [data, setData] = useState({});
   const [forecast, setForecast] = useState({});
-  // get cityName then set lat and lon
-  // lat
-  // lon
-  // geoCode
 
   return (
     <NavigationContainer>

@@ -86,7 +86,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: "#f8f4f9",
     marginLeft: "2%",
-    //fontWeight: "bold",
   },
   icon: {
     width: 200,

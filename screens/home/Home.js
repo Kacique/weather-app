@@ -82,7 +82,6 @@ const Home = (props) => {
                   location={props.data.location}
                   temperature={props.data.temperature}
                   condition={props.data.weatherCondition}
-                  //icon={props.data.icon}
                   icon={IconConditions[props.data.icon].icon}
                   humidity={props.data.humidity}
                   wind={props.data.wind}
